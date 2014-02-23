@@ -1,0 +1,589 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4F0770AE18B880B800C51823 /* Event.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F0770AD18B880B800C51823 /* Event.m */; };
+		4FA42ECC18B967D40065E7BF /* APIClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FA42ECB18B967D40065E7BF /* APIClient.m */; };
+		4FA42ED418BA024B0065E7BF /* HistoryAPIClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FA42ED318BA024B0065E7BF /* HistoryAPIClient.m */; };
+		C19640D818B958B4007B0193 /* MakeMessageCard.m in Sources */ = {isa = PBXBuildFile; fileRef = C19640D718B958B4007B0193 /* MakeMessageCard.m */; };
+		C19640DB18B96E3F007B0193 /* StartViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C19640DA18B96E3F007B0193 /* StartViewController.m */; };
+		C19640E018B9F28F007B0193 /* Very-Basic-Ok-icon (1).png in Resources */ = {isa = PBXBuildFile; fileRef = C19640DF18B9F28F007B0193 /* Very-Basic-Ok-icon (1).png */; };
+		C1B7279418B8618B0069ADAE /* CoreDataTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C1B7279318B8618B0069ADAE /* CoreDataTableViewController.m */; };
+		C1B727E118B882020069ADAE /* Message.m in Sources */ = {isa = PBXBuildFile; fileRef = C1B727E018B882020069ADAE /* Message.m */; };
+		C1B727E518B8A3680069ADAE /* drop.png in Resources */ = {isa = PBXBuildFile; fileRef = C1B727E418B8A3680069ADAE /* drop.png */; };
+		C1B727E818B8AC3D0069ADAE /* MessageCard.m in Sources */ = {isa = PBXBuildFile; fileRef = C1B727E718B8AC3D0069ADAE /* MessageCard.m */; };
+		C1B727EB18B8ACE50069ADAE /* MessagesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C1B727EA18B8ACE50069ADAE /* MessagesViewController.m */; };
+		C1BE14D718BA041F000C260B /* arrowDown.png in Resources */ = {isa = PBXBuildFile; fileRef = C1BE14D618BA041F000C260B /* arrowDown.png */; };
+		C1BE14D918BA0427000C260B /* arrowUp.png in Resources */ = {isa = PBXBuildFile; fileRef = C1BE14D818BA0427000C260B /* arrowUp.png */; };
+		C1C3B65018B82B75009ACD19 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C1C3B64F18B82B75009ACD19 /* Foundation.framework */; };
+		C1C3B65218B82B75009ACD19 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C1C3B65118B82B75009ACD19 /* CoreGraphics.framework */; };
+		C1C3B65418B82B75009ACD19 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C1C3B65318B82B75009ACD19 /* UIKit.framework */; };
+		C1C3B65A18B82B76009ACD19 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C1C3B65818B82B76009ACD19 /* InfoPlist.strings */; };
+		C1C3B65C18B82B76009ACD19 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C1C3B65B18B82B76009ACD19 /* main.m */; };
+		C1C3B66018B82B76009ACD19 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C1C3B65F18B82B76009ACD19 /* AppDelegate.m */; };
+		C1C3B66318B82B76009ACD19 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C1C3B66118B82B76009ACD19 /* Main.storyboard */; };
+		C1C3B66B18B82B76009ACD19 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C1C3B66A18B82B76009ACD19 /* Images.xcassets */; };
+		C1C3B67218B82B76009ACD19 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C1C3B67118B82B76009ACD19 /* XCTest.framework */; };
+		C1C3B67318B82B76009ACD19 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C1C3B64F18B82B75009ACD19 /* Foundation.framework */; };
+		C1C3B67418B82B76009ACD19 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C1C3B65318B82B75009ACD19 /* UIKit.framework */; };
+		C1C3B67C18B82B76009ACD19 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C1C3B67A18B82B76009ACD19 /* InfoPlist.strings */; };
+		C1C3B67E18B82B76009ACD19 /* RippleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C1C3B67D18B82B76009ACD19 /* RippleTests.m */; };
+		C1C3B68918B8377B009ACD19 /* HistoryTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C1C3B68818B8377B009ACD19 /* HistoryTableViewController.m */; };
+		C1C3B68C18B837C8009ACD19 /* PostViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C1C3B68B18B837C8009ACD19 /* PostViewController.m */; };
+		C1C3B68F18B839A3009ACD19 /* CustomTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C1C3B68E18B839A3009ACD19 /* CustomTableViewCell.m */; };
+		C1C3B69418B84ED8009ACD19 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C1C3B69318B84ED8009ACD19 /* CoreData.framework */; };
+		C1C3B69718B85086009ACD19 /* RippleModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = C1C3B69518B85086009ACD19 /* RippleModel.xcdatamodeld */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C1C3B67518B82B76009ACD19 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C1C3B64418B82B75009ACD19 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C1C3B64B18B82B75009ACD19;
+			remoteInfo = Ripple;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4F0770AC18B880B800C51823 /* Event.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Event.h; sourceTree = "<group>"; };
+		4F0770AD18B880B800C51823 /* Event.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Event.m; sourceTree = "<group>"; };
+		4FA42ECA18B967D40065E7BF /* APIClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APIClient.h; sourceTree = "<group>"; };
+		4FA42ECB18B967D40065E7BF /* APIClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APIClient.m; sourceTree = "<group>"; };
+		4FA42ED218BA024B0065E7BF /* HistoryAPIClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HistoryAPIClient.h; sourceTree = "<group>"; };
+		4FA42ED318BA024B0065E7BF /* HistoryAPIClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HistoryAPIClient.m; sourceTree = "<group>"; };
+		C19640D618B958B3007B0193 /* MakeMessageCard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MakeMessageCard.h; sourceTree = "<group>"; };
+		C19640D718B958B4007B0193 /* MakeMessageCard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MakeMessageCard.m; sourceTree = "<group>"; };
+		C19640D918B96E3F007B0193 /* StartViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StartViewController.h; sourceTree = "<group>"; };
+		C19640DA18B96E3F007B0193 /* StartViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StartViewController.m; sourceTree = "<group>"; };
+		C19640DF18B9F28F007B0193 /* Very-Basic-Ok-icon (1).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Very-Basic-Ok-icon (1).png"; sourceTree = "<group>"; };
+		C1B7279218B861830069ADAE /* CoreDataTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoreDataTableViewController.h; sourceTree = "<group>"; };
+		C1B7279318B8618B0069ADAE /* CoreDataTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CoreDataTableViewController.m; sourceTree = "<group>"; };
+		C1B727DF18B882020069ADAE /* Message.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Message.h; sourceTree = "<group>"; };
+		C1B727E018B882020069ADAE /* Message.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Message.m; sourceTree = "<group>"; };
+		C1B727E418B8A3680069ADAE /* drop.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = drop.png; sourceTree = "<group>"; };
+		C1B727E618B8AC3D0069ADAE /* MessageCard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MessageCard.h; sourceTree = "<group>"; };
+		C1B727E718B8AC3D0069ADAE /* MessageCard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MessageCard.m; sourceTree = "<group>"; };
+		C1B727E918B8ACE50069ADAE /* MessagesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MessagesViewController.h; sourceTree = "<group>"; };
+		C1B727EA18B8ACE50069ADAE /* MessagesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MessagesViewController.m; sourceTree = "<group>"; };
+		C1BE14D618BA041F000C260B /* arrowDown.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = arrowDown.png; sourceTree = "<group>"; };
+		C1BE14D818BA0427000C260B /* arrowUp.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = arrowUp.png; sourceTree = "<group>"; };
+		C1C3B64C18B82B75009ACD19 /* Ripple.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Ripple.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C1C3B64F18B82B75009ACD19 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		C1C3B65118B82B75009ACD19 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		C1C3B65318B82B75009ACD19 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		C1C3B65718B82B76009ACD19 /* Ripple-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Ripple-Info.plist"; sourceTree = "<group>"; };
+		C1C3B65918B82B76009ACD19 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		C1C3B65B18B82B76009ACD19 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C1C3B65D18B82B76009ACD19 /* Ripple-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Ripple-Prefix.pch"; sourceTree = "<group>"; };
+		C1C3B65E18B82B76009ACD19 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		C1C3B65F18B82B76009ACD19 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C1C3B66218B82B76009ACD19 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C1C3B66A18B82B76009ACD19 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		C1C3B67018B82B76009ACD19 /* RippleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RippleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C1C3B67118B82B76009ACD19 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		C1C3B67918B82B76009ACD19 /* RippleTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "RippleTests-Info.plist"; sourceTree = "<group>"; };
+		C1C3B67B18B82B76009ACD19 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		C1C3B67D18B82B76009ACD19 /* RippleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RippleTests.m; sourceTree = "<group>"; };
+		C1C3B68718B8377B009ACD19 /* HistoryTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HistoryTableViewController.h; sourceTree = "<group>"; };
+		C1C3B68818B8377B009ACD19 /* HistoryTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HistoryTableViewController.m; sourceTree = "<group>"; };
+		C1C3B68A18B837C8009ACD19 /* PostViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PostViewController.h; sourceTree = "<group>"; wrapsLines = 1; };
+		C1C3B68B18B837C8009ACD19 /* PostViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PostViewController.m; sourceTree = "<group>"; };
+		C1C3B68D18B839A3009ACD19 /* CustomTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomTableViewCell.h; sourceTree = "<group>"; };
+		C1C3B68E18B839A3009ACD19 /* CustomTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomTableViewCell.m; sourceTree = "<group>"; };
+		C1C3B69318B84ED8009ACD19 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		C1C3B69618B85086009ACD19 /* RippleModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = RippleModel.xcdatamodel; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C1C3B64918B82B75009ACD19 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C1C3B69418B84ED8009ACD19 /* CoreData.framework in Frameworks */,
+				C1C3B65218B82B75009ACD19 /* CoreGraphics.framework in Frameworks */,
+				C1C3B65418B82B75009ACD19 /* UIKit.framework in Frameworks */,
+				C1C3B65018B82B75009ACD19 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C1C3B66D18B82B76009ACD19 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C1C3B67218B82B76009ACD19 /* XCTest.framework in Frameworks */,
+				C1C3B67418B82B76009ACD19 /* UIKit.framework in Frameworks */,
+				C1C3B67318B82B76009ACD19 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C1C3B64318B82B75009ACD19 = {
+			isa = PBXGroup;
+			children = (
+				C1B7279218B861830069ADAE /* CoreDataTableViewController.h */,
+				C1B7279318B8618B0069ADAE /* CoreDataTableViewController.m */,
+				C1C3B65518B82B75009ACD19 /* Ripple */,
+				C1C3B67718B82B76009ACD19 /* RippleTests */,
+				C1C3B64E18B82B75009ACD19 /* Frameworks */,
+				C1C3B64D18B82B75009ACD19 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C1C3B64D18B82B75009ACD19 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C1C3B64C18B82B75009ACD19 /* Ripple.app */,
+				C1C3B67018B82B76009ACD19 /* RippleTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C1C3B64E18B82B75009ACD19 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C1C3B69318B84ED8009ACD19 /* CoreData.framework */,
+				C1C3B64F18B82B75009ACD19 /* Foundation.framework */,
+				C1C3B65118B82B75009ACD19 /* CoreGraphics.framework */,
+				C1C3B65318B82B75009ACD19 /* UIKit.framework */,
+				C1C3B67118B82B76009ACD19 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C1C3B65518B82B75009ACD19 /* Ripple */ = {
+			isa = PBXGroup;
+			children = (
+				C1C3B65E18B82B76009ACD19 /* AppDelegate.h */,
+				C1C3B65F18B82B76009ACD19 /* AppDelegate.m */,
+				4FA42ECA18B967D40065E7BF /* APIClient.h */,
+				4FA42ED218BA024B0065E7BF /* HistoryAPIClient.h */,
+				4FA42ED318BA024B0065E7BF /* HistoryAPIClient.m */,
+				4FA42ECB18B967D40065E7BF /* APIClient.m */,
+				C1C3B68A18B837C8009ACD19 /* PostViewController.h */,
+				C1C3B68B18B837C8009ACD19 /* PostViewController.m */,
+				C19640D618B958B3007B0193 /* MakeMessageCard.h */,
+				C19640D718B958B4007B0193 /* MakeMessageCard.m */,
+				C1C3B66118B82B76009ACD19 /* Main.storyboard */,
+				C1B727E918B8ACE50069ADAE /* MessagesViewController.h */,
+				C1B727EA18B8ACE50069ADAE /* MessagesViewController.m */,
+				C1B727E618B8AC3D0069ADAE /* MessageCard.h */,
+				C1B727E718B8AC3D0069ADAE /* MessageCard.m */,
+				C1C3B68D18B839A3009ACD19 /* CustomTableViewCell.h */,
+				C1C3B68E18B839A3009ACD19 /* CustomTableViewCell.m */,
+				C1C3B66A18B82B76009ACD19 /* Images.xcassets */,
+				C1BE14D818BA0427000C260B /* arrowUp.png */,
+				C1BE14D618BA041F000C260B /* arrowDown.png */,
+				C1B727E418B8A3680069ADAE /* drop.png */,
+				C19640DF18B9F28F007B0193 /* Very-Basic-Ok-icon (1).png */,
+				C1C3B65618B82B76009ACD19 /* Supporting Files */,
+				C1C3B68718B8377B009ACD19 /* HistoryTableViewController.h */,
+				C1C3B68818B8377B009ACD19 /* HistoryTableViewController.m */,
+				C19640D918B96E3F007B0193 /* StartViewController.h */,
+				C19640DA18B96E3F007B0193 /* StartViewController.m */,
+				C1C3B69518B85086009ACD19 /* RippleModel.xcdatamodeld */,
+				C1B727DF18B882020069ADAE /* Message.h */,
+				C1B727E018B882020069ADAE /* Message.m */,
+				4F0770AC18B880B800C51823 /* Event.h */,
+				4F0770AD18B880B800C51823 /* Event.m */,
+			);
+			path = Ripple;
+			sourceTree = "<group>";
+		};
+		C1C3B65618B82B76009ACD19 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C1C3B65718B82B76009ACD19 /* Ripple-Info.plist */,
+				C1C3B65818B82B76009ACD19 /* InfoPlist.strings */,
+				C1C3B65B18B82B76009ACD19 /* main.m */,
+				C1C3B65D18B82B76009ACD19 /* Ripple-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C1C3B67718B82B76009ACD19 /* RippleTests */ = {
+			isa = PBXGroup;
+			children = (
+				C1C3B67D18B82B76009ACD19 /* RippleTests.m */,
+				C1C3B67818B82B76009ACD19 /* Supporting Files */,
+			);
+			path = RippleTests;
+			sourceTree = "<group>";
+		};
+		C1C3B67818B82B76009ACD19 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C1C3B67918B82B76009ACD19 /* RippleTests-Info.plist */,
+				C1C3B67A18B82B76009ACD19 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C1C3B64B18B82B75009ACD19 /* Ripple */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C1C3B68118B82B76009ACD19 /* Build configuration list for PBXNativeTarget "Ripple" */;
+			buildPhases = (
+				C1C3B64818B82B75009ACD19 /* Sources */,
+				C1C3B64918B82B75009ACD19 /* Frameworks */,
+				C1C3B64A18B82B75009ACD19 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Ripple;
+			productName = Ripple;
+			productReference = C1C3B64C18B82B75009ACD19 /* Ripple.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C1C3B66F18B82B76009ACD19 /* RippleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C1C3B68418B82B76009ACD19 /* Build configuration list for PBXNativeTarget "RippleTests" */;
+			buildPhases = (
+				C1C3B66C18B82B76009ACD19 /* Sources */,
+				C1C3B66D18B82B76009ACD19 /* Frameworks */,
+				C1C3B66E18B82B76009ACD19 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C1C3B67618B82B76009ACD19 /* PBXTargetDependency */,
+			);
+			name = RippleTests;
+			productName = RippleTests;
+			productReference = C1C3B67018B82B76009ACD19 /* RippleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C1C3B64418B82B75009ACD19 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = Choicengine;
+				TargetAttributes = {
+					C1C3B64B18B82B75009ACD19 = {
+						DevelopmentTeam = 9AP3GRDUFP;
+					};
+					C1C3B66F18B82B76009ACD19 = {
+						TestTargetID = C1C3B64B18B82B75009ACD19;
+					};
+				};
+			};
+			buildConfigurationList = C1C3B64718B82B75009ACD19 /* Build configuration list for PBXProject "Ripple" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C1C3B64318B82B75009ACD19;
+			productRefGroup = C1C3B64D18B82B75009ACD19 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C1C3B64B18B82B75009ACD19 /* Ripple */,
+				C1C3B66F18B82B76009ACD19 /* RippleTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C1C3B64A18B82B75009ACD19 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C1B727E518B8A3680069ADAE /* drop.png in Resources */,
+				C1C3B66B18B82B76009ACD19 /* Images.xcassets in Resources */,
+				C1C3B65A18B82B76009ACD19 /* InfoPlist.strings in Resources */,
+				C19640E018B9F28F007B0193 /* Very-Basic-Ok-icon (1).png in Resources */,
+				C1C3B66318B82B76009ACD19 /* Main.storyboard in Resources */,
+				C1BE14D918BA0427000C260B /* arrowUp.png in Resources */,
+				C1BE14D718BA041F000C260B /* arrowDown.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C1C3B66E18B82B76009ACD19 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C1C3B67C18B82B76009ACD19 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C1C3B64818B82B75009ACD19 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C1C3B68918B8377B009ACD19 /* HistoryTableViewController.m in Sources */,
+				C19640D818B958B4007B0193 /* MakeMessageCard.m in Sources */,
+				C1B727E818B8AC3D0069ADAE /* MessageCard.m in Sources */,
+				C19640DB18B96E3F007B0193 /* StartViewController.m in Sources */,
+				C1C3B66018B82B76009ACD19 /* AppDelegate.m in Sources */,
+				4FA42ED418BA024B0065E7BF /* HistoryAPIClient.m in Sources */,
+				C1B7279418B8618B0069ADAE /* CoreDataTableViewController.m in Sources */,
+				C1C3B65C18B82B76009ACD19 /* main.m in Sources */,
+				4F0770AE18B880B800C51823 /* Event.m in Sources */,
+				C1B727EB18B8ACE50069ADAE /* MessagesViewController.m in Sources */,
+				C1C3B69718B85086009ACD19 /* RippleModel.xcdatamodeld in Sources */,
+				C1C3B68F18B839A3009ACD19 /* CustomTableViewCell.m in Sources */,
+				4FA42ECC18B967D40065E7BF /* APIClient.m in Sources */,
+				C1B727E118B882020069ADAE /* Message.m in Sources */,
+				C1C3B68C18B837C8009ACD19 /* PostViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C1C3B66C18B82B76009ACD19 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C1C3B67E18B82B76009ACD19 /* RippleTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C1C3B67618B82B76009ACD19 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C1C3B64B18B82B75009ACD19 /* Ripple */;
+			targetProxy = C1C3B67518B82B76009ACD19 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C1C3B65818B82B76009ACD19 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C1C3B65918B82B76009ACD19 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		C1C3B66118B82B76009ACD19 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C1C3B66218B82B76009ACD19 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C1C3B67A18B82B76009ACD19 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C1C3B67B18B82B76009ACD19 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C1C3B67F18B82B76009ACD19 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C1C3B68018B82B76009ACD19 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C1C3B68218B82B76009ACD19 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Ripple/Ripple-Prefix.pch";
+				INFOPLIST_FILE = "Ripple/Ripple-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		C1C3B68318B82B76009ACD19 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Ripple/Ripple-Prefix.pch";
+				INFOPLIST_FILE = "Ripple/Ripple-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		C1C3B68518B82B76009ACD19 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Ripple.app/Ripple";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Ripple/Ripple-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "RippleTests/RippleTests-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		C1C3B68618B82B76009ACD19 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Ripple.app/Ripple";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Ripple/Ripple-Prefix.pch";
+				INFOPLIST_FILE = "RippleTests/RippleTests-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C1C3B64718B82B75009ACD19 /* Build configuration list for PBXProject "Ripple" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C1C3B67F18B82B76009ACD19 /* Debug */,
+				C1C3B68018B82B76009ACD19 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C1C3B68118B82B76009ACD19 /* Build configuration list for PBXNativeTarget "Ripple" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C1C3B68218B82B76009ACD19 /* Debug */,
+				C1C3B68318B82B76009ACD19 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C1C3B68418B82B76009ACD19 /* Build configuration list for PBXNativeTarget "RippleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C1C3B68518B82B76009ACD19 /* Debug */,
+				C1C3B68618B82B76009ACD19 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		C1C3B69518B85086009ACD19 /* RippleModel.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				C1C3B69618B85086009ACD19 /* RippleModel.xcdatamodel */,
+			);
+			currentVersion = C1C3B69618B85086009ACD19 /* RippleModel.xcdatamodel */;
+			path = RippleModel.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = C1C3B64418B82B75009ACD19 /* Project object */;
+}
